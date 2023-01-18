@@ -173,6 +173,7 @@ class KMeans:
 
 class SVM:
     """
+    !!! There are still something wrong in it, but it can relatively work well !!!
     Support Vector Machine:
         This class can do SVM automatically
         For more information, see the demo please.
