@@ -1,4 +1,4 @@
-# Machine-Learning
+# MachineLearning
 This is the repository used to learn Machine-Learning. It contains many of the classic algorithms implemented by **numpy**.
 
 This repository is just for **learning purposes**. and there may be a lot of bugs or stupidities here. But these codes can help me better understand machine learning.
