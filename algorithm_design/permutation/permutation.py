@@ -156,7 +156,7 @@ if __name__ == "__main__":
     # solve sequential
     after_ckpt1 = solve_sequential(source_list=diction_to_list(ckpt1), target_list=diction_to_list(ckpt2))
     after_ckpt1 = list_to_diction(after_ckpt1)
-    torch.save(after_ckpt1, "./test.pth")
+    torch.save(after_ckpt1, "test_ckpt.pth")
 
     # print after error
     error = 0

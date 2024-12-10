@@ -56,7 +56,7 @@ def main():
         shuffle=False
     )  # create dataloader
     model = Model().to(device)
-    model.load_state_dict(torch.load("test.pth", weights_only=True))
+    model.load_state_dict(torch.load("test_ckpt.pth", weights_only=True))
     test(model, device, test_loader)
 
 
