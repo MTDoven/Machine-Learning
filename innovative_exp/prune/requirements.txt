@@ -1,0 +1,7 @@
+certifi
+future
+numpy
+Pillow
+thop
+torch
+torchvision

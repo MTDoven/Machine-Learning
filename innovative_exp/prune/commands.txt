@@ -1,0 +1,4 @@
+python .\pretrain.py --dir_data "D:\Dataset\CIFAR10" --save "save_pretrained" --epochs 50
+python .\prune.py --dir_data "D:\Dataset\CIFAR10" --model ".\save_pretrained\pretrained.pth" --save "save_pruned"
+python .\finetune.py --dir_data "D:\Dataset\CIFAR10" --refine ".\save_pruned\pruned.pth.tar" --save "save_finetuned" --epochs 20
+python .\test.py --dir_data "D:\Dataset\CIFAR10" --baseline ".\save_pretrained\pretrained.pth" --pruned ".\save_pruned\pruned.pth.tar" --finetune ".\save_finetuned\finetune_model_best.pth.tar" --no-cuda
